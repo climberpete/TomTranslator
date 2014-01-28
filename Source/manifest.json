@@ -1,0 +1,14 @@
+{
+        "manifest_version": 2,
+        "name": "Tom Haverford Translator",
+        "version": "0.1",
+        "description": "It's like having Tom in your browser",
+        "content_scripts": 
+        [
+                {
+                        "matches": ["*://*/*"],
+                        "js": ["content_script.js"],
+                        "run_at": "document_end"
+                }
+        ]
+}
