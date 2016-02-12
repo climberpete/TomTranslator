@@ -74,7 +74,7 @@ function getDictionary(){
 	dictionary.push(new wordPair(/\b(S|s)andwich(|)(es|)\b/g, "sammie", "s"));
 	dictionary.push(new wordPair(/\b(E|e)ntree(|)(s|)\b/g, "tray tra", "ies", "y"));
 	dictionary.push(new wordPair(/\b(D|d)essert(|)(s|)\b/g, "ssert", "s"));
-	dictionary.push(new wordPair(/\b(R|r)asin(|)(s|)\b/g, "old-ass grape", "s"));
+	dictionary.push(new wordPair(/\b(R|r)aisin(|)(s|)\b/g, "old-ass grape", "s"));
 	dictionary.push(new wordPair(/\b(S|s)oft (S|s)erve(s|)\b/g, "vanilla ice", "s"));
 	dictionary.push(new wordPair(/\b(L|l)emonade(|)(s|)\b/g, "LL cool ade", "s"));
 	dictionary.push(new wordPair(/\b(S|s)oft (S|s)erve(s|)\b/g, "vanilla ice", "s"));
